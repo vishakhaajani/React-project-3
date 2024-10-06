@@ -1,36 +1,19 @@
 body{
-  
     overflow-x: hidden;
 }
 
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-button{
-    background-color: #228b22e1;
-    transition: all 0.3s;
-    outline: none;
-    border: none;
-}
 
-button:hover{
-    transform: scale(1.1); /* Scale effect on hover */
-    background-color: #228B22;
-}
 
 .card{
     padding: 20px;
     margin-bottom: 50px;
-    transition: all 0.5s;
+    transition: all 1s;
     border-radius: 20px;
 }
 
 .card:hover{
-    background-color: #228B22;
-    color: white;
     cursor: pointer;
     border-radius: 30px;
 }
+
